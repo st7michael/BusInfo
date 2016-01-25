@@ -109,12 +109,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="XmM-nD-Ag0">
-                                <rect key="frame" x="0.0" y="64" width="320" height="44"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="NBI-BO-5PN">
-                                <rect key="frame" x="16" y="108" width="288" height="411"/>
+                                <rect key="frame" x="-4" y="64" width="328" height="455"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="separatorColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="sectionIndexColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -123,20 +119,19 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="XmM-nD-Ag0" firstAttribute="leading" secondItem="iCX-W8-m0V" secondAttribute="leading" id="Ahp-v3-G5K"/>
-                            <constraint firstItem="NBI-BO-5PN" firstAttribute="leading" secondItem="iCX-W8-m0V" secondAttribute="leadingMargin" id="GLq-5e-LUi"/>
-                            <constraint firstItem="NBI-BO-5PN" firstAttribute="top" secondItem="XmM-nD-Ag0" secondAttribute="bottom" id="NR6-Ac-lfW"/>
-                            <constraint firstItem="N1b-Kn-aex" firstAttribute="top" secondItem="NBI-BO-5PN" secondAttribute="bottom" id="OCO-K3-UVE"/>
-                            <constraint firstAttribute="trailing" secondItem="XmM-nD-Ag0" secondAttribute="trailing" id="Y5z-2g-cLH"/>
-                            <constraint firstItem="XmM-nD-Ag0" firstAttribute="top" secondItem="giU-fX-shU" secondAttribute="bottom" id="lqN-HB-XU9"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="NBI-BO-5PN" secondAttribute="trailing" id="ue9-Dd-2Mu"/>
+                            <constraint firstItem="NBI-BO-5PN" firstAttribute="leading" secondItem="iCX-W8-m0V" secondAttribute="leadingMargin" constant="-20" id="8la-7A-Qki"/>
+                            <constraint firstItem="N1b-Kn-aex" firstAttribute="top" secondItem="NBI-BO-5PN" secondAttribute="bottom" id="ABz-m0-1Yc"/>
+                            <constraint firstItem="NBI-BO-5PN" firstAttribute="leading" secondItem="iCX-W8-m0V" secondAttribute="leadingMargin" constant="-20" id="GLq-5e-LUi"/>
+                            <constraint firstItem="NBI-BO-5PN" firstAttribute="top" secondItem="giU-fX-shU" secondAttribute="bottom" id="ajI-dT-qqt"/>
+                            <constraint firstItem="NBI-BO-5PN" firstAttribute="top" secondItem="giU-fX-shU" secondAttribute="bottom" id="fSt-ng-lNa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NBI-BO-5PN" secondAttribute="trailing" constant="-20" id="uCA-jI-QAW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NBI-BO-5PN" secondAttribute="trailing" constant="-20" id="ue9-Dd-2Mu"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="woD-qF-bu6"/>
                     <navigationItem key="navigationItem" id="3C9-rj-Y0E"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
-                        <outlet property="mySeach" destination="XmM-nD-Ag0" id="Fsf-Mh-HHV"/>
                         <outlet property="myTableView" destination="NBI-BO-5PN" id="UG4-wU-F5D"/>
                         <outlet property="searchDisplayController" destination="X97-MJ-MsS" id="EVf-zL-sAk"/>
                     </connections>

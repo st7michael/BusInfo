@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41051D8C1C55E7FD0026AE9F /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41051D8A1C55E7FD0026AE9F /* TableViewCell.m */; };
+		41051D8D1C55E7FD0026AE9F /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41051D8B1C55E7FD0026AE9F /* TableViewCell.xib */; };
 		41B656821C51CFB500ADBD8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B656811C51CFB500ADBD8C /* main.m */; };
 		41B656851C51CFB500ADBD8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B656841C51CFB500ADBD8C /* AppDelegate.m */; };
 		41B6568B1C51CFB500ADBD8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B656891C51CFB500ADBD8C /* Main.storyboard */; };
@@ -38,6 +40,9 @@
 
 /* Begin PBXFileReference section */
 		348015621BA19E75AE426AB6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		41051D891C55E7FD0026AE9F /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		41051D8A1C55E7FD0026AE9F /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		41051D8B1C55E7FD0026AE9F /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		41B6567D1C51CFB500ADBD8C /* BusInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B656811C51CFB500ADBD8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		41B656831C51CFB500ADBD8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -122,6 +127,9 @@
 				41B656831C51CFB500ADBD8C /* AppDelegate.h */,
 				41B656841C51CFB500ADBD8C /* AppDelegate.m */,
 				41B656891C51CFB500ADBD8C /* Main.storyboard */,
+				41051D891C55E7FD0026AE9F /* TableViewCell.h */,
+				41051D8A1C55E7FD0026AE9F /* TableViewCell.m */,
+				41051D8B1C55E7FD0026AE9F /* TableViewCell.xib */,
 				41B656B61C520A6A00ADBD8C /* NavController.h */,
 				41B656B71C520A6A00ADBD8C /* NavController.m */,
 				41B656B31C52046200ADBD8C /* SearchViewController.h */,
@@ -279,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41B656901C51CFB500ADBD8C /* LaunchScreen.storyboard in Resources */,
+				41051D8D1C55E7FD0026AE9F /* TableViewCell.xib in Resources */,
 				41B6568D1C51CFB500ADBD8C /* Assets.xcassets in Resources */,
 				41B6568B1C51CFB500ADBD8C /* Main.storyboard in Resources */,
 			);
@@ -356,6 +365,7 @@
 				41B656851C51CFB500ADBD8C /* AppDelegate.m in Sources */,
 				41B656B51C52046200ADBD8C /* SearchViewController.m in Sources */,
 				41B656821C51CFB500ADBD8C /* main.m in Sources */,
+				41051D8C1C55E7FD0026AE9F /* TableViewCell.m in Sources */,
 				41B656B81C520A6A00ADBD8C /* NavController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

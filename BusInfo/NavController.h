@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NavController.h
 //  BusInfo
 //
 //  Created by Yiqiao on 16/1/22.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface NavController : UINavigationController
 
 @end
-

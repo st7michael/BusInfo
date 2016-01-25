@@ -17,11 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Search";
-    _myTableView.backgroundColor = [UIColor blackColor];
 }
 
 - (void)viewWillAppear:(BOOL)animated{
     [_myTableView reloadData];
+}
+
+- (void)tableviewAttri{
+    _myTableView.backgroundColor = [UIColor blackColor];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -35,6 +38,12 @@
     }
     return cell;
 }
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+}
+
+
 
 
 - (void)didReceiveMemoryWarning {
